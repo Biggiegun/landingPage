@@ -1,0 +1,443 @@
+@media only screen and (min-width:800px){
+body{
+    font-family: "Delius";
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    color: lightslategray;
+}
+
+#guide{
+    font-size: xx-large;
+}
+#submit{
+    background-color: lightyellow;
+    border-radius: 5px;
+    color: lightslategray;
+}
+#submit:hover{
+    background-color: yellowgreen;
+}
+#header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: lightyellow;
+    border-radius: 5px;
+    justify-content: space-between;
+    margin: 0px;
+    padding:0px 0% 0px 0%;
+    }
+
+.icon{
+    padding: 10px;
+    max-width: 55px;
+    max-height: 55px;
+}
+
+div{
+    padding: 30px 0px 0px 0px;
+    margin-right: 0px;
+    font-size: large;
+    
+}
+
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: center;
+    
+}
+#header-img{
+    
+    margin: 0px 0px 10px 0px;
+    
+}
+
+a{
+    border: 1px solid whitesmoke;
+    margin: 30px 5px 30px 5px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: lightslategray;
+}
+
+.nav-link{
+    padding: 10px 25px 10px 25px;
+}
+.nav-link:hover{
+    background-color: darkseagreen;
+    color: whitesmoke;
+}
+#prices{
+    display:grid;
+    height: 550px;
+    grid-template-areas: "Nuevos Usados Paquetes";
+    padding: 10px;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr;
+    gap: 150px;
+}
+
+#Nuevos{
+    border: 3px solid lightslategray;
+    grid-area: Nuevos;
+    text-align: center;
+}
+
+#Usados{
+    border: 3px solid lightslategray;
+    grid-area: Usados;
+    text-align: center;
+}
+
+#Paquetes{
+    border: 3px solid lightslategray;
+    grid-area: Paquetes;
+    text-align: center;
+}
+
+#Cuerpo{
+margin-top: 100px;
+text-align: center;
+
+}
+#guide{
+    color: lightslategray;
+}
+
+#feature1{
+    margin-top: 80px;
+    display: grid;
+    grid-template-areas: "icon feature1";
+    padding: 10px;
+    grid-template-columns: 120px 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+
+}
+.xbox{
+    width: 120px;
+    height: 120px;
+}
+#xbox{
+    grid-area: icon;
+    border:1px solid lightslategray;
+    border-radius: 15px;
+}
+#xbox1{
+  
+    grid-area: feature1;
+    padding:10px 0px 10px 0px;
+    text-align: justify;
+    color:lightslategray;
+}
+#feature2{
+    margin-top: 80px;
+    display: grid;
+    grid-template-areas: "icon2 feature2";
+    padding: 10px;
+    grid-template-columns: 120px 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+}
+.sale{
+    width: 120px;
+    height: 120px;
+    
+}
+#sale{
+    grid-area: icon2;
+    border:1px solid lightslategray;
+    border-radius: 15px;
+}
+#sale1{
+grid-area: feature2;
+padding:10px 0px 10px 0px;
+text-align: justify;
+color:lightslategray;
+}
+#feature3{
+    margin-top: 80px;
+    display: grid;
+    grid-template-areas: "icon3 feature3";
+    padding: 10px;
+    grid-template-columns: 120px 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+}
+.quality{
+    width: 120px;
+    height: 120px; 
+}
+#quality{
+    grid-area: icon3;
+    border:1px solid lightslategray;
+    border-radius: 15px;
+}
+#quality1{
+    grid-area: feature3;
+    padding:10px 0px 10px 0px;
+    text-align: justify;
+    color:lightslategray;
+}
+
+#video{
+   
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#new{
+    background-color: lightyellow;
+    border-radius: 5px;
+    border: 2px solid lightslategray;
+}
+#new:hover{
+background-color: yellowgreen;
+color: whitesmoke;
+}
+#used{
+    background-color: lightyellow;
+    border-radius: 5px;
+    border: 2px solid lightslategray;
+}
+#used:hover{
+    background-color: yellowgreen;
+    color: whitesmoke;
+}
+#package{
+    background-color: lightyellow;
+    border-radius: 5px;
+    border: 2px solid lightslategray;
+}
+#package:hover{
+    background-color: yellowgreen;
+    color: whitesmoke;
+}
+
+
+}
+/*---------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width:799px){
+
+        body{
+            font-family: "Delius";
+            background-color: whitesmoke;
+            color: lightslategray;
+        }
+       
+        #header{
+            height: 200px;
+            background-color: lightyellow;
+            border-radius: 10px;
+        }
+
+        .titulo{
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+            grid-template-areas: "icon" 
+                                 "presentacion";
+            text-align: center;
+            height: 50%;
+        }
+        .icon{
+            max-width: 55px;
+            max-height: 55px;
+            grid-area: icon;
+        }
+        .presentacion{
+            grid-area: presentacion;
+        }
+
+       .links{
+           height: 50%;
+           width: 100%;
+           display: inline-flex;
+           justify-content: space-around;
+       }
+
+        #guide{
+            font-size: xx-large;
+        }
+        #submit{
+            background-color: lightyellow;
+            border-radius: 5px;
+            color: lightslategray;
+        }
+        #submit:hover{
+            background-color: yellowgreen;
+        }
+
+        a{
+            border: 1px solid whitesmoke;
+            margin: 30px 5px 30px 5px;
+            border-radius: 5px;
+            background-color: whitesmoke;
+            text-decoration: none;
+            text-transform: capitalize;
+            color: lightslategray;
+        }
+        
+        .nav-link{
+            padding:10px;
+        }
+        .nav-link:hover{
+            background-color: darkseagreen;
+            color: whitesmoke;
+        }
+        #prices{
+            display:grid;
+            height: 55px;
+            grid-template-areas: "Nuevos"
+                                 "Usados" 
+                                 "Paquetes";
+            padding: 10px;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: 10px;
+        }
+        
+        #Nuevos{
+            border: 3px solid lightslategray;
+            grid-area: Nuevos;
+            text-align: center;
+        }
+        
+        #Usados{
+            border: 3px solid lightslategray;
+            grid-area: Usados;
+            text-align: center;
+        }
+        
+        #Paquetes{
+            border: 3px solid lightslategray;
+            grid-area: Paquetes;
+            text-align: center;
+        }
+        
+        #Cuerpo{
+        margin-top: 100px;
+        text-align: center;
+        
+        }
+        #guide{
+            color: lightslategray;
+        }
+        
+        #feature1{
+            margin-top: 80px;
+            display: grid;
+            grid-template-areas: "icon feature1";
+            padding: 10px;
+            grid-template-columns: 120px 1fr;
+            grid-template-rows: 1fr;
+            gap: 10px;
+        
+        }
+        .xbox{
+            width: 120px;
+            height: 120px;
+        }
+        #xbox{
+            grid-area: icon;
+            border:1px solid lightslategray;
+            border-radius: 15px;
+        }
+        #xbox1{
+          
+            grid-area: feature1;
+            padding:10px 0px 10px 0px;
+            text-align: justify;
+            color:lightslategray;
+        }
+        #feature2{
+            margin-top: 80px;
+            display: grid;
+            grid-template-areas: "icon2 feature2";
+            padding: 10px;
+            grid-template-columns: 120px 1fr;
+            grid-template-rows: 1fr;
+            gap: 10px;
+        }
+        .sale{
+            width: 120px;
+            height: 120px;
+            
+        }
+        #sale{
+            grid-area: icon2;
+            border:1px solid lightslategray;
+            border-radius: 15px;
+        }
+        #sale1{
+        grid-area: feature2;
+        padding:10px 0px 10px 0px;
+        text-align: justify;
+        color:lightslategray;
+        }
+        #feature3{
+            margin-top: 80px;
+            display: grid;
+            grid-template-areas: "icon3 feature3";
+            padding: 10px;
+            grid-template-columns: 120px 1fr;
+            grid-template-rows: 1fr;
+            gap: 10px;
+        }
+        .quality{
+            width: 120px;
+            height: 120px; 
+        }
+        #quality{
+            grid-area: icon3;
+            border:1px solid lightslategray;
+            border-radius: 15px;
+        }
+        #quality1{
+            grid-area: feature3;
+            padding:10px 0px 10px 0px;
+            text-align: justify;
+            color:lightslategray;
+        }
+        
+        #video{
+
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        iframe{
+            width: 50%;
+            height: auto;
+        }
+        #new{
+            background-color: lightyellow;
+            border-radius: 5px;
+            border: 2px solid lightslategray;
+        }
+        #new:hover{
+        background-color: yellowgreen;
+        color: whitesmoke;
+        }
+        #used{
+            background-color: lightyellow;
+            border-radius: 5px;
+            border: 2px solid lightslategray;
+        }
+        #used:hover{
+            background-color: yellowgreen;
+            color: whitesmoke;
+        }
+        #package{
+            background-color: lightyellow;
+            border-radius: 5px;
+            border: 2px solid lightslategray;
+        }
+        #package:hover{
+            background-color: yellowgreen;
+            color: whitesmoke;
+        }
+
+}
